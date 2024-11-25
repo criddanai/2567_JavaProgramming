@@ -1,4 +1,4 @@
 StudentId: 2213180017
 StudentName: Kriddanai Berkbandee
-Date: 11/18/2024
-Topic: Work with GitHub
+Date: 25/11/2024
+Topic: Display, Variable and Input
