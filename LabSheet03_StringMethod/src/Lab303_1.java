@@ -4,19 +4,19 @@ public class Lab303_1 {
 	public static void main(String[] args) {
 		
 		String sentence = JOptionPane.showInputDialog("Input a sentence:");
-		
-		while(true) {
-		sentence = JOptionPane.showInputDialog("Input a sentence, again:");
-		
-			if(sentence.endsWith(".")) {
-				break;
+
+		while (!sentence.endsWith(".")) {
+			sentence = JOptionPane.showInputDialog("Input a sentence, again:");
+		}
+
+		int whiteSpace = 0;
+		for (int i = 0; i < sentence.length(); i++) {
+			if (sentence.charAt(i) == ' ') {
+				whiteSpace += 1;
 			}
 		}
-		int whiteSpace = sentence.trim().length();
-		int subSentence = sentence.substring(0).length();
 		
-		JOptionPane.showMessageDialog(null, "This sentence has " + ((whiteSpace - 1) - 10) + " spacebar."
-					+ "\nThis sentence has " + (subSentence - 10) + " word.");
+		JOptionPane.showMessageDialog(null, "This sentence has " + whiteSpace + " spacebar."
+					+ "\nThis sentence has " + (whiteSpace + 1) + " word.");
 	}
-
 }
