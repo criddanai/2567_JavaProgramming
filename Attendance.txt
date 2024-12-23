@@ -1,4 +1,4 @@
 StudentId: 2213180017
 StudentName: Kriddanai Berkbandee
-Date: 09/12/2024
-Topic: String Method
+Date: 23/12/2024
+Topic: Array and Array Method
