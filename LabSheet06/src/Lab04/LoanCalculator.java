@@ -16,7 +16,7 @@ public class LoanCalculator {
 	
 	public double calculateMonthlyPayment() {
 		double totalPayment = price + interestRate;
-		double monthlyPayment = price * interestRate + (1 + interestRate)^totalPayment ;
+		double monthlyPayment = price * interestRate + (1 + interestRate) * totalPayment ;
 	}
 	
 }
