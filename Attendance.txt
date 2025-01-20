@@ -1,4 +1,4 @@
 StudentId: 2213180017
 StudentName: Kriddanai Berkbandee
-Date: 13/01/2025
-Topic: Class and Object
+Date: 20/01/2025
+Topic: Encapsulation Concept, Array Object
