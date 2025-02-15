@@ -12,7 +12,7 @@ public class Movie {
 	}
 	
 	Movie () {
-		
+		this(null, null, null);
 	}
 	
 	public String getId() {
@@ -32,6 +32,6 @@ public class Movie {
 	}
 	
 	public String toString() {
-		return getId() + getName() + " direct by " + director;
+		return this.id + " " + this.name + " direct by " + this.director;
 	}
 }
